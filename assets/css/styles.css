@@ -602,8 +602,7 @@ img {
     row-gap: 2rem;
   }
   .home__img {
-    width: 200px;
-    position: center;
+   display: none;
   }
   .qualification__container {
     max-width: 768px;
