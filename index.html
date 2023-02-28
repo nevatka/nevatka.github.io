@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Adrianna</a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/adrianna-hornicka/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/nevatka" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#qualification" class="nav__link">Qualification</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Adrianna</span><br>Software Engineer</h1>
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div>
+                    <a href="https://www.linkedin.com/in/adrianna-hornicka/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/nevatka" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <img class="home__blob-img" src="assets/img/profile.jpeg">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+
+                <div class="about__container">
+
+                    <div>
+                        <h2 class="about__subtitle">I am Adrianna</h2>
+                        <p class="about__text">I am a Data Science student and Junior Software Engineer based in Warsaw, Poland. I have profound interest in data analysis and hope to
+                            develop in the area of Data Science and Machine Learning.<br> In my free time I like to hike, paint and learn French & Spanish.</p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== QUALIFICATION =====-->
+            <section class="qualification section" id="qualification">
+                <h2 class="section-title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+                <span class="section__subtitle">Choose Education or Work for more information</span>
+                <div class="qualification__container qualification__container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work-experience">
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--===== QUALIFICATION CONTENT 1 =====-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--===== QUALIFICATION 1 =====-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Computer Science</h3>
+                                    <span class="qualification__subtitle">Adam Mickiewicz University in Poznan, Poland</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 - 2022
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            <!--===== QUALIFICATION 2 =====-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Data Science</h3>
+                                    <span class="qualification__subtitle">Polish Japanese Academy of Information Technology in Warsaw, Poland</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022 - 2024
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--===== QUALIFICATION CONTENT 2 =====-->
+                        <div class="qualification__content" data-content id="work-experience">
+                            <!--===== QUALIFICATION 1 =====-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Business Applications Administrator Intern</h3>
+                                    <span class="qualification__subtitle"> Allegro </span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        07.2021 - 10.2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            <!--===== QUALIFICATION 2 =====-->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Junior Business Applications Administrator </h3>
+                                    <span class="qualification__subtitle">Allegro</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        10.2021 - 04.2023
+                                    </div>
+                                </div>
+                            </div>
+                            <!--===== QUALIFICATION 3 =====-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Junior Software Engineer</h3>
+                                    <span class="qualification__subtitle">Allegro</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        04.2023 -
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Python</span>
+                        <span class="skills__name">Tensorflow</span>
+                        <span class="skills__name">Scikit learn library</span>
+                        <span class="skills__name">Machine Learning Algorithms</span>
+                        <span class="skills__name">SQL</span>
+                        <span class="skills__name">Dialogflow</span>
+                        <span class="skills__name">Data Analysis</span>
+                        <span class="skills__name">Git</span>
+                        <span class="skills__name">Jira</span>
+                        <span class="skills__name">Hadoop</span>
+                        <span class="skills__name">Google Cloud Platform</span>
+
+                        <h3 class="skills__subtitle">Languages</h3>
+                        <span class="skills__name">Polish native</span>
+                        <span class="skills__name">English C1</span>
+                        <span class="skills__name">Spanish B1</span>
+                        <span class="skills__name">French A2</span>
+
+                        <h3 class="skills__subtitle">Certificates</h3>
+                        <span class="skills__name">Customer Experiences with Contact Center AI - Dialogflow CX</span>
+                        <span class="skills__name">Google Analytics</span>
+
+                    </div>
+                    <div>
+                        <img src="assets/img/4413403.jpg" alt="" class="skills__img">
+                        <p class="skills__img_link"><small>
+                        <a href="https://www.freepik.com/free-vector/hand-drawn-data-concept-illustrated_18954684.htm#query=IT%20illustration&position=45&from_view=search&track=ais">Freepik</a>
+                        </small></p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="portfolio section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <span class="section__subtitle">Sample projects</span>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/project1.png" alt="">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/nevatka/cnn-dog-cat-classifier" target="_blank" class="portfolio__link"> Dog-Cat Classifier <br><br><br> View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project2.jpg" alt="">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/nevatka/spam-ham-prediction" target="_blank" class="portfolio__link"> Spam-Ham <br><br><br> View details</a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/project3.jpg" alt="">
+                        <div class="portfolio__link">
+                            <a href="https://github.com/nevatka/bank-clients-churn-predicition" target="_blank" class="portfolio__link"> Churn Prediction <br><br><br> View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+                <span class="section__subtitle">Let's get in touch</span>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email me</h3>
+                            <span class="contact__subtitle">adrianna.hornicka@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-linkedin-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Linkedin me</h3>
+                            <span class="contact__subtitle">linkedin.com/in/adrianna-hornicka/</span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </main>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="js/main.js"></script>
+    </body>
+</html>
